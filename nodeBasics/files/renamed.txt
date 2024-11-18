@@ -1,0 +1,3 @@
+This file was originally rename.txt
+
+It was renamed with rename() method -> renamed.txt
