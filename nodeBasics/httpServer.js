@@ -22,7 +22,9 @@ http
     res.write(req.url);
     res.end();
   })
-  .listen(8080);
+  .listen(8080, () => {
+    console.log("Server running on port 8080");
+  });
 
 // try: run 'node ./nodeBasics/httpServer.js' and go to 'http://localhost:8080/' <- try add text after domain name and open in browser
 
@@ -41,6 +43,8 @@ http
     res.write(txt);
     res.end();
   })
-  .listen(8090);
+  .listen(8090, () => {
+    console.log("Server running on port 8090");
+  });
 
 // http://localhost:8090/?year=2024&month=November <- query parameters comes after '?' and separated by '&'
