@@ -44,7 +44,10 @@ alternatives for npm: **Yarn & pnpm**
 
 ## Package.json:
 
-Package.json file - is the core of a Node.js system, and it contains the metadata of the project - is used to manage project metadata, dependencies, scripts and configurations
+Package.json file
+
+- is the core of a Node.js system, and it contains the metadata of the project
+- is used to manage project metadata, dependencies, scripts and configurations
 
 File content can be categorized as
 
