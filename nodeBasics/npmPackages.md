@@ -80,3 +80,5 @@ Can be created in two ways
 ```
 
 More about package.json on npm docs: https://docs.npmjs.com/cli/v10/configuring-npm/package-json
+
+## Package-lock.json:
