@@ -79,6 +79,27 @@ Can be created in two ways
 }
 ```
 
-More about package.json on npm docs: https://docs.npmjs.com/cli/v10/configuring-npm/package-json
-
 ## Package-lock.json:
+
+Package-lock.json file
+
+- is generated for those operations where npm modifies either node_modules or package.json.
+- provides the snapshot of all the current and previously used dependencies and subdependencies with exact versions.
+- locks the versions for the consistent project setup accross different environments.
+
+Files main purposes are
+
+- Dependency Locking:
+
+  - detailed record of dependency tree.
+  - locks specific versions of packages, preventing unintended updates.
+
+- Version Consistency:
+
+  - everyone using uses the same versions of dependencies.
+  - consistant building across different environments.
+
+- Improved Installation Speed:
+  - stores flat node_modules structure, which results faster and more reliable dependency installations.
+
+While previously covered package.json file defines basic dependencies and configurations, package-lock.json locks the dependency tree to specific versions. This will ensure consistant and reproducible projects.
