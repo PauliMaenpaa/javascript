@@ -25,3 +25,13 @@ eventEmitter.on("start_args", (num1, num2) => {
 });
 
 eventEmitter.emit("start_args", 1, 2);
+
+/*
+
+Other eventEmitter methods:
+
+- once(): add a one-time listener
+- removeListenter() / off(): remove an event lister from an event
+- removeAllListeners(): remove all listeners for an event
+
+*/
